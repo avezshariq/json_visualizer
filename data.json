@@ -1,0 +1,39 @@
+{
+	"random": "33",
+	"random float": "7.662",
+	"bool": "true",
+	"date": "1987-01-13",
+	"regEx": "hellooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo world",
+	"enum": "generator",
+	"firstname": "Vevay",
+	"lastname": "Kalinda",
+	"city": "Cairo",
+	"country": "Finland",
+	"countryCode": "TN",
+	"email uses current data": "Vevay.Kalinda@gmail.com",
+	"email from expression": "Vevay.Kalinda@yopmail.com",
+	"array": [
+		"Cacilie",
+		"Nerta",
+		"Blake",
+		"Wanda",
+		"Melanie"
+	],
+	"array of objects": [
+		{
+			"index": "0",
+			"index start at 5": "5"
+		},
+		{
+			"index": "1",
+			"index start at 5": "6"
+		},
+		{
+			"index": "2",
+			"index start at 5": "7"
+		}
+	],
+	"Siana": {
+		"age": "65"
+	}
+}
