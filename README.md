@@ -1,5 +1,5 @@
 # json_visualizer (WIP)
-Opening a JSON file and getting an understanding of its structure can be pretty daunting sometimes, especially if it involves a huge amount of data. This program helps visualise the tree of the JSON file. It can be used to get some usefule information like:
+Opening a JSON file and getting an understanding of its structure can be pretty daunting sometimes, especially if it involves a huge amount of data. This program helps visualise the tree of the JSON file. It can be used to get some useful information like:
 1. Structure of the JSON file
 2. Number of levels or depth of the file
 3. Where the metadata is and where the actual data is
