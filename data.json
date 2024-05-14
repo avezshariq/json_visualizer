@@ -1,39 +1,88 @@
 {
-	"random": "33",
-	"random float": "7.662",
-	"bool": "true",
-	"date": "1987-01-13",
-	"regEx": "hellooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo world",
-	"enum": "generator",
-	"firstname": "Vevay",
-	"lastname": "Kalinda",
-	"city": "Cairo",
-	"country": "Finland",
-	"countryCode": "TN",
-	"email uses current data": "Vevay.Kalinda@gmail.com",
-	"email from expression": "Vevay.Kalinda@yopmail.com",
-	"array": [
-		"Cacilie",
-		"Nerta",
-		"Blake",
-		"Wanda",
-		"Melanie"
-	],
-	"array of objects": [
-		{
-			"index": "0",
-			"index start at 5": "5"
-		},
-		{
-			"index": "1",
-			"index start at 5": "6"
-		},
-		{
-			"index": "2",
-			"index start at 5": "7"
-		}
-	],
-	"Siana": {
-		"age": "65"
-	}
+  "result": [
+    {
+      "status": "active",
+      "name": {
+        "first": "Xzavier",
+        "middle": "Marlowe",
+        "last": "Tillman"
+      },
+      "username": "Xzavier-Tillman",
+      "password": "s4S3Ug_irkr2C1Y",
+      "emails": [
+        "Orpha.Mayer@example.com",
+        "Presley_Wolff48@example.com"
+      ],
+      "phoneNumber": "1-374-552-3352 x832",
+      "location": {
+        "street": "196 Ansley Passage",
+        "city": "Richland",
+        "state": "Rhode Island",
+        "country": "Argentina",
+        "zip": "65816",
+        "coordinates": {
+          "latitude": -16.5722,
+          "longitude": 85.5703
+        }
+      },
+      "website": "https://plain-stitch.biz/",
+      "domain": "buoyant-availability.info",
+      "job": {
+        "title": "Direct Data Executive",
+        "descriptor": "Lead",
+        "area": "Identity",
+        "type": "Associate",
+        "company": "Romaguera, Heathcote and Osinski"
+      },
+      "creditCard": {
+        "number": "5270-8326-0768-1580",
+        "cvv": "648",
+        "issuer": "discover"
+      },
+      "uuid": "2cbac626-fa57-433c-9705-0e03d7dc229a",
+      "objectId": "664348271ea6f918b2d25be9"
+    },
+    {
+      "status": "disabled",
+      "name": {
+        "first": "Jessica",
+        "middle": "Shiloh",
+        "last": "Kemmer"
+      },
+      "username": "Jessica-Kemmer",
+      "password": "jKZsuxy_EruJIj6",
+      "emails": [
+        "Jamaal_Glover@gmail.com",
+        "Monroe_Boehm42@example.com"
+      ],
+      "phoneNumber": "(959) 429-3004",
+      "location": {
+        "street": "86110 O'Hara Branch",
+        "city": "Ricebury",
+        "state": "Massachusetts",
+        "country": "Mauritania",
+        "zip": "52412-9164",
+        "coordinates": {
+          "latitude": -57.0841,
+          "longitude": -81.3469
+        }
+      },
+      "website": "https://familiar-exposition.com/",
+      "domain": "cumbersome-paperwork.name",
+      "job": {
+        "title": "Dynamic Tactics Analyst",
+        "descriptor": "Investor",
+        "area": "Program",
+        "type": "Planner",
+        "company": "Durgan - Witting"
+      },
+      "creditCard": {
+        "number": "3529-2756-7635-1608",
+        "cvv": "232",
+        "issuer": "visa"
+      },
+      "uuid": "34104c9b-3d39-4e7e-a551-5d3de104b65c",
+      "objectId": "664348271ea6f918b2d25bea"
+    }
+  ]
 }
