@@ -1,4 +1,4 @@
-# JSON Visualizer (WIP)
+# JSON Visualizer
 # Convert this:
 ![image](https://github.com/avezshariq/json_visualizer/assets/79614977/c157e9fd-922b-4d04-988a-9b3b5974f50c)
 # Into this:
