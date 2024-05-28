@@ -13,7 +13,17 @@ Opening a JSON file and getting an understanding of its structure can be pretty 
 ## Steps
 1. Reads the JSON file
 2. Gets all useful information such as levels, names etc..
-3. Creates an SVG file (Vector Image file) 
+3. Creates an HTML file containing the structure
+
+**Examples present as 'data.json' and 'data.html'**
+
+# How to Use
+This repo is created for online use. If you want to use it online, go to:
+https://avez-json-visualizer.glitch.me/
+If you want to use it on local machine 
+1. Download the `json_visualizer.py`
+2. Then do `from json_visualizer import json_visualizer`
+3. Finally you can `html_file = json_visualizer('filename.json', True)`
 
 
 
