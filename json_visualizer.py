@@ -196,13 +196,8 @@ def json_visualizer(file: str, create_file: bool) -> str:
 
 
     # Read data
-    ## For Web
-    if isinstance(file, dict):
-        data = file
-    ## For local
-    else:
-        with open(file, 'r') as f:
-            data = json.load(f)
+    with open(file, 'r') as f:
+        data = json.load(f)
     
     # Flatten JSON
     all_items = []
