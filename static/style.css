@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+@keyframes revealPath {
+    from {
+        stroke-dashoffset: 200;
+    }
+
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes revealPath2 {
+    from {
+        stroke-dashoffset: 100;
+    }
+
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.header-logo svg {
+    max-width: 25rem;
+    height: auto;
+    fill: none;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: miter;
+    stroke-miterlimit: 4;
+}
+
+#path1,
+#path2,
+#path3,
+#path4,
+#path5,
+#path6,
+#path7,
+#path8,
+#path9,
+#path10 {
+    stroke: #41b06eff;
+    stroke-width: 10;
+}
+
+#path961,
+#path1425,
+#path1429,
+#path1449 {
+    stroke: #141e46ff;
+    stroke-dasharray: 30 10;
+    animation: revealPath 8s linear infinite forwards;
+}
+
+#path963,
+#path965,
+#path967,
+#path1502,
+#path1439,
+#path1427 {
+    stroke: #141e46ff;
+    stroke-dasharray: 10 10;
+    animation: revealPath2 8s linear infinite forwards;
+}
+
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #defaea;
+    align-items: center;
+    font-family: monospace;
+}
+
+img {
+    max-width: 400px;
+}
